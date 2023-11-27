@@ -1,0 +1,112 @@
+.navigation-wrapper{
+    background-color:  #000000 ;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    height: 100px;
+}
+
+.navigation-wrapper > .left-column{
+    margin: 20px;
+    width: 40px;
+}
+.navigation-wrapper > .left-column >.logo img{
+    width: 216px;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.navigation-wrapper > .center-column{
+    width: 500px;
+    margin-left: 43px;
+    
+}
+.navigation-wrapper > .center-column > .explore{
+    color: #f4dc5c ;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 2px;
+
+}
+
+.navigation-wrapper > .center-column > .center-links-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-wrapper > .center-column > .center-links-wrapper > .left-navlink{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5em;
+    
+}
+.navigation-wrapper > .center-column > .center-links-wrapper >.right-navlink{
+    color: #707070 ;
+    margin-left: 25px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navigation-wrapper > .center-column > .center-links-wrapper >.right-navlink select{
+    border: 1px solid  #000000 ;
+    appearance: none;
+}
+
+.navigation-wrapper > .center-column > .center-links-wrapper >.right-navlink i{
+    color: #d2cac3;
+}
+
+.navigation-wrapper > .right-column > .right-links-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    width: 530px;
+    align-items: center;
+    color: #d2cfc7 ;
+    font-weight:bold;
+  
+}
+  
+.navigation-wrapper > .right-column > .right-links-wrapper >.navlink-create{
+    border: 5px solid #404040 ;
+    background-color: #404040 ;
+    border-radius: 3px;
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    font-size: 1.3em;
+}
+.navigation-wrapper > .right-column > .right-links-wrapper >.navlink-login{
+    border: 5px solid #404040 ;
+    background-color: #404040 ;
+    border-radius: 3px;
+    padding: 10px;
+    width: 75px;
+    text-align: center;
+    font-size: 1.3em;
+}
+.navigation-wrapper > .right-column > .right-links-wrapper >.navlink-signup{
+    border: 5px solid #404040 ;
+    background-color: #404040 ;
+    border-radius: 3px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.navigation-wrapper > .right-column > .right-links-wrapper >.navlink-create select {
+   
+    border: 1px solid #404040;
+    appearance: none;
+  }
+  .navigation-wrapper > .right-column > .right-links-wrapper >.navlink-create i{
+    color: #4fc87d ;
+  }
+
+
+.navigation-wrapper > .right-column > .right-links-wrapper >.icon i{
+    color:  #707070;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}

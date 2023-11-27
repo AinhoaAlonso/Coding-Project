@@ -1,0 +1,57 @@
+@media(max-width: 615px){
+    .navigation-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+    .navigation-wrapper > .center-column{
+        width: 375px;
+        padding-bottom: 15px;
+    }
+    .navigation-wrapper > .right-column > .right-links-wrapper{
+        justify-content: space-between;
+    }
+
+    .main-section{
+        padding-top: 15px;
+        padding-left:20px;
+    }
+    .main-section > .square{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-section > .square > .description .first-p{
+        font-size: 25px;
+        width: 500px
+    } 
+    .main-section > .square > .description .second-p{
+        font-size: 20px;
+        width: 500px;
+
+    }
+    .main-section > .square > .description > .sign-learn-wrapper{
+        width: 500px;
+
+    }
+
+    .main-section > .square > .description > .sign-learn-wrapper > .sign-wrapper{
+        width: 240px;
+        font-size: 27px;
+
+    }
+    .main-section > .square > .description > .sign-learn-wrapper > .learn-wrapper{
+        width: 240px;
+        font-size: 27px;
+    
+    }
+    .main-section > .square > .imageCodePen{
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .main-section > .square > .imageCodePen > .image img{
+        height: 300px;
+    }
+}

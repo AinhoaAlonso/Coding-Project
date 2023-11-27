@@ -1,0 +1,88 @@
+.main-section{
+    padding-top: 30px;
+    padding-left: 50px;
+    height: 100%;
+    background: linear-gradient(to bottom right,#404040, #31333c, #000000)
+}
+
+.main-section > .square{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-section > .square > .description{
+    margin-right: 15px;
+}
+
+.main-section > .square > .description .first-p{
+    font-size: 44px;
+    margin-left: 15px;
+    color: #d2cac3;
+    font-weight: 300;
+    width: 740px;
+    height: 140px;
+} 
+.main-section > .square > .description .first-p span{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.main-section > .square > .description .second-p{
+    font-size: 35px;
+    margin-left: 15px;
+    width: 675px;
+    color:#d2cac3;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.main-section > .square > .description > .sign-learn-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    align-items: center;
+    width: 654px;
+    margin-left: 15px
+}
+.main-section > .square > .description > .sign-learn-wrapper > .sign-wrapper{
+    width: 300px;
+    text-align: center;
+    border: 5px solid #4fc87d;
+    border-radius: 3px;
+    background: #4fc87d;
+    font-size: 37px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-section > .square > .description > .sign-learn-wrapper > .learn-wrapper{
+    width: 242px;
+    text-align: center;
+    border: 5px solid #000000;
+    border-radius: 3px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 37px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-section > .square > .imageCodePen{
+    margin-left: 80px;
+}
+.main-section > .square > .imageCodePen h3{
+    color: #ffffff;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.main-section > .square > .imageCodePen h3 span{
+    color:#09C8E8;
+}
+.main-section > .square > .imageCodePen > .image img{
+    height: 512px;
+    box-shadow: -31px 0px 33px -8px #212227;
+}
