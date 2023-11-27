@@ -5,13 +5,41 @@
         align-items: baseline;
         padding-left: 15px;
         padding-bottom: 15px;
+        height: 200px;
     }
     .navigation-wrapper > .center-column{
         width: 375px;
         padding-bottom: 15px;
     }
+    .navigation-wrapper > .center-column > .explore{
+        font-size: 0.8em;
+    
+    }
+    .navigation-wrapper > .center-column > .center-links-wrapper > .left-navlink{
+        font-size: 1em;
+    }
+    .navigation-wrapper > .center-column > .center-links-wrapper >.right-navlink{
+        font-size: 1em;
+    }
+
     .navigation-wrapper > .right-column > .right-links-wrapper{
         justify-content: space-between;
+        width: 380px;
+    }
+    .navigation-wrapper > .right-column > .right-links-wrapper >.navlink-create{
+        width: 75px;
+        font-size: 1em;
+    }
+    .navigation-wrapper > .right-column > .right-links-wrapper >.navlink-login{
+        width: 55px;
+        font-size: 1em;
+    }
+    .navigation-wrapper > .right-column > .right-links-wrapper >.navlink-signup{
+        width: 65px;
+        font-size: 1em;
+    }
+    .navigation-wrapper > .right-column > .right-links-wrapper >.icon i{
+        font-size: 25px;
     }
 
     .main-section{
@@ -25,7 +53,8 @@
 
     .main-section > .square > .description .first-p{
         font-size: 25px;
-        width: 500px
+        width: 500px;
+        height: 60px;
     } 
     .main-section > .square > .description .second-p{
         font-size: 20px;
